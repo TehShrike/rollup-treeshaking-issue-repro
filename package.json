@@ -1,0 +1,23 @@
+{
+  "name": "rollup-treeshaking-issue-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run build && node ./output.js",
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TehShrike/rollup-treeshaking-issue-repro.git"
+  },
+  "author": "TehShrike",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/TehShrike/rollup-treeshaking-issue-repro/issues"
+  },
+  "homepage": "https://github.com/TehShrike/rollup-treeshaking-issue-repro#readme",
+  "devDependencies": {
+    "rollup": "^1.23.1"
+  }
+}
